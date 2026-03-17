@@ -15,19 +15,24 @@ use scx_utils::UserExitInfo;
 
 
 struct GrahaScheduler<'a> {
-    bpf: BpfScheduler<'a>;
+    bpf: BpfScheduler<'a>
 }
 
 impl<'a> GrahaScheduler<'a> {
-    fn init(open_object: &'a mut MaybeUninit<OpenObject>) -> Result<Self>;
+    fn init(open_object: &'a mut MaybeUninit<OpenObject>) -> Result<Self> {
+    }
 
-    fn dispatch_tasks(&mut self);
+    fn dispatch_tasks(&mut self) {
+    }
 
-    fn print_stats(&mut self);
+    fn print_stats(&mut self) {
+    }
 
-    fn now() -> u64;
+    fn now() -> u64 {
+    }
 
-    fn run(&mut self) -> Result<UserExitInfo>;
+    fn run(&mut self) -> Result<UserExitInfo> {
+    }
 }
 
 
