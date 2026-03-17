@@ -5,6 +5,13 @@ edition = "2024"
 
 [dependencies]
 anyhow = "1.0.102"
+ctrlc = "3.5.2"
 libbpf-rs = "0.26.1"
+libc = "0.2.183"
+plain = "0.2.3"
+procfs = "0.18.0"
 scx_rustland_core = "2.4.11"
 scx_utils = "1.1.0"
+
+[build-dependencies]
+scx_rustland_core = "2.4.11"
