@@ -31,3 +31,9 @@ target
 # already existing elements were commented out
 
 #/target
+
+
+# sched-ext
+intf.h
+main.bpf.c
+bpf.rs
